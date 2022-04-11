@@ -1,0 +1,17 @@
+create database SchoolMgmt;
+use SchoolMgmt;
+
+create table student ( 
+	id INT(10) AUTO_INCREMENT, 
+	dept VARCHAR(50), 
+	name VARCHAR(50),
+        nid INT(10),
+        birth DATE,
+        address VARCHAR(50),
+	PRIMARY KEY(id) 
+);
+
+
+
+
+
