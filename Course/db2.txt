@@ -1,0 +1,10 @@
+create table course ( 
+	course_id INT(10), 
+	course_dept VARCHAR(20), 
+	course_title VARCHAR(20),
+        course_credit INT(10),
+        course_syllabus VARCHAR(50),
+        course_semester VARCHAR(10),
+	PRIMARY KEY(course_id) 
+);
+
