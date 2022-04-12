@@ -1,0 +1,14 @@
+create table teacher ( 
+	teacher_id INT(10) AUTO_INCREMENT, 
+	teacher_dept VARCHAR(20), 
+	teacher_name VARCHAR(20),
+    teacher_nid VARCHAR(20),
+    teacher_dob DATE,
+    teacher_address VARCHAR(20), 
+    course_id INT(10),
+	PRIMARY KEY(teacher_id),
+     FOREIGN KEY(course_id) REFERENCES course(course_id)
+);
+
+
+GITHUB REPO LINK: https://github.com/SumaiyaSadiq21/Assignment-1
